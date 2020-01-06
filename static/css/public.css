@@ -1,0 +1,27 @@
+@charset "utf-8";
+body,ul,ol,p,h1,h2,h3,h4,h5,h6{margin: 0;padding: 0;
+font-size:100%; 
+font-weight:normal;
+font-family: '微软雅黑'; }
+ul,ol{list-style: none;}
+img{border: none; vertical-align:middle;}
+a{text-decoration: none;}
+.clearfix:after,.clearfix:before{content: "";display:table;}
+.clearfix:after{clear: both;}
+.clearfix{*zoom:1;}
+.gwidth{
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.fl{
+	float:left;
+}
+.fr{
+	float:right;
+}
+/*.tab li:hover{
+  border-bottom:2px solid #3E61A4; 
+  color:#3E61A4;
+  font-weight:bold;
+}*/

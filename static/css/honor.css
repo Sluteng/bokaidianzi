@@ -1,0 +1,182 @@
+﻿/*honor*/
+#fd1{
+  color:#3E61A4;
+}
+.con_top_right{
+  float:right;
+  margin-right:10px;
+}
+.con_top_right li{
+  float:left;
+  text-align:center;
+}
+.con_top_right .icon-jia-{
+  font-size:28px;
+  font-weight: bold;
+  color:#3E61A4;
+  height:50px;
+  line-height: 50px;
+}
+.con_top_right li a{
+  font-size:14px;
+  color:#000;
+  display:block;
+  margin-top:16px;
+}
+.content{
+  height: 50px;
+  box-shadow:inset 0px -10px 25px -10px #888888; 
+}
+.tab li{
+    float:left;
+    margin-right: 30px;
+    cursor: pointer;
+    margin-top:7px;
+    padding:10px 10px;
+    font-size:16px;
+}
+.tab li a{
+  color: #000;
+}
+.tab li.cur{
+  border-bottom:2px solid #3E61A4; 
+  color:#3E61A4;
+  font-weight:bold;
+}
+.tab li.cur a{
+  color:#3E61A4;
+  font-weight:bold;
+}
+.tab li:hover{
+  border-bottom:2px solid #3E61A4; 
+  color:#3E61A4;
+  font-weight:bold;
+}
+.con_top_right{
+  float:right;
+  margin-right:10px;
+}
+.con_top_right li{
+  float:left;
+  text-align:center;
+}
+.con_top_right .icon-jia-{
+  margin-left:8px;
+  font-size:28px;
+  font-weight: bold;
+}
+.con_top_right li a{
+  font-size:14px;
+  color:#000;
+  display:block;
+  margin-top:16px;
+}
+.honor{
+  width:100%;
+  /*height:58px;*/
+  margin-top:45px;
+}
+.honor .h_honor{
+  width:100%;
+  height:58px;  
+  box-shadow: inset 0px -10px 25px -10px #888888;
+}
+.honor .top{
+  height: 58px;
+}
+.honor .top .top_menu li{
+  height: 56px;
+  float:left;
+  line-height: 56px;
+  padding: 0 20px;
+}
+.honor .top_menu li a{
+  font-size:16px;
+  font-family:"微软雅黑";
+  color:#000;
+}
+.honor .top .top_menu li .active{
+  color:#2F559D;
+}
+.honor .top .top_menu li:hover{
+  color:#2F559D;
+  text-align:center;
+  border-bottom:2px #2F559D solid;
+}
+.honor .top .top_menu li:hover a{
+  color:#2F559D;
+}
+.honor .top .addres{
+  font-size:14px;
+  line-height: 58px;
+  float:right;
+}
+.honor .top  .iconfont{
+  font-size:28px;
+  color:#5071AC;
+  font-weight:bold;
+  float:right;
+  height:58px;
+  line-height: 58px;
+  padding-right:8px;
+}
+.honor .btm{
+  height:1115px;
+  text-align: center;
+  margin-top:30px;
+}
+.honor .btm h2{
+  font-weight: bold;
+  font-size: 1.5em;
+}
+.honor .btm p{
+  color:#CBCBCB;
+}
+.honor .btm .bottom_menu{
+  float:left;
+}
+.honor .btm .bottom_menu li{
+  float:left;
+  padding-right:60px;
+  width:360px;
+  height:453px;
+  margin-top: 20px;
+  margin-bottom:27px;
+  line-height: 21px;
+  text-align: center;
+  font-size:18px;
+  font-family: "微软雅黑";
+}
+.honor .btm .bottom_menu li img{
+  width:100%;
+  height:100%;
+}
+ul.pagination {
+  margin-top:50px; 
+  margin-bottom:35px;
+  text-align:center;
+  height:100px;
+}
+ul.pagination li
+{
+  display: inline;
+}
+ul.pagination li {
+    color: black;
+    padding: 12px 20px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    margin-right:20px;
+    border-radius:5px;
+}
+ul.pagination li.active {
+    background-color: #34599F;
+    color: white;
+    border: 1px solid #A39797;
+}
+ul.pagination li:hover:not(.active)
+ {
+  background-color: #34599F;
+  color:#fff;
+}

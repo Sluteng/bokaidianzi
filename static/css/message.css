@@ -1,0 +1,164 @@
+@charset "utf-8";
+
+/*content*/
+.sidebar{
+  width: 100%;
+  height: 50px;
+  background: url(../images/back_bg1.png);
+  /*margin-top:95px;*/
+}
+
+.desc{
+  font-size: 16px;
+  color:#3E61A4;
+  font-weight:bold;
+  line-height: 42px;
+  width: 87px;
+  text-align: center;
+  border-bottom: 3px solid #2F559D;
+  float: left;
+  margin-top: 5px;
+}
+.nav_slide{
+  float: right;
+  height: 50px;
+  line-height: 50px;
+}
+.idex{
+  background: url(../images/index.png)no-repeat;
+  width: 29px;
+  height: 27px;
+  float: left;
+  margin-top:15px;
+  margin-right: 12px;
+}
+.activ{
+  font-size: 14px;
+  color: #535353;
+  float: left;
+  line-height: 58px;
+}
+.slide_index{
+  font-size: 14px;
+  color: #535353;
+  float: left;
+  line-height: 58px;
+}
+.arrow{
+  font-size: 14px;
+  color: #535353;
+  float: left;
+  line-height: 58px;
+  margin: 0 6px;
+}
+.recruit{
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px 0 28px 0;
+  overflow: hidden;
+  background: #fff;
+}
+.recruit-left{
+  width: 580px;
+  float: left;
+}
+.recruit_right{
+  width: 580px;
+  float: right;
+}
+.recruit_list li{
+  padding: 12px 26px 16px 7px;
+  background: #E7E7E7;
+  margin-bottom: 22px;
+  position: relative;
+  overflow: hidden;
+  font-size: 0;
+  box-sizing: border-box;
+}
+.recruit_list li >h5{
+  font-size: 18px;
+  color: #000;
+  margin-bottom: 24px;
+}
+.brief{
+  font-size: 16px;
+  color: #000;
+  margin-bottom: 17px;
+}
+.brief span{
+  font-weight: 700;
+}
+.brief p{
+  font-size: 14px;
+  color: #000;
+  line-height: 36px;
+}
+.open{
+  display: block;
+  position: absolute;
+  width: 93px;
+  height: 34px;
+  border-radius: 15px;
+  background:#9F9F9F;
+  color: #30569D;
+  line-height: 34px;
+  text-align: center;
+  top: 47px;
+  right: 27px;
+  z-index: 9999;
+  font-size: 18px;
+}
+.aroww{
+  display: inline-block;
+  margin-left: 9px;
+  width: 19px;
+  height: 11px;
+  background: url(../images/arow.png);
+}
+.opening{
+  height: 136px !important;
+}
+.openi span{
+  transform: rotate(180deg);
+}
+#fd1 {
+    color: #3E61A4;
+}
+/*表单*/
+.liuyan{
+  height:700px;
+  background:#F6F6F6;
+}
+textarea{
+  resize:none;
+  margin-top:13px;
+}
+.liuyan table{
+  padding-top:30px;
+  line-height:60px;
+  font-size:18px;
+  margin:0px 200px;
+}
+.liuyan h4{
+  font-size:26px;
+  color:#000;
+  padding-top:20px;
+  padding-left:20px;
+  letter-spacing:3px;
+}
+.code {
+    text-align:center;
+} 
+.liuyan .buttom{
+  padding:10px 15px;
+  background:#ccc;
+  margin:35px 80px;
+  font-size:16px;
+}
+.liuyan .buttom:hover{
+  background:#30569D;
+  color:#fff;
+}
+
+

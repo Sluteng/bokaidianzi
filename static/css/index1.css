@@ -1,0 +1,315 @@
+/*公司简介*/
+/*公司简介新闻选项卡*/
+ul,li {
+	margin:0;
+	padding:0;
+	list-style:none
+}
+.gwidth{
+	width:1200px;
+	margin:auto auto;
+}
+.Comnews{
+     height:450px;
+     margin-top: 20px;
+}
+.Comnews .tab{
+	float:left;
+	width:710px;
+	height:100%;
+
+}
+.Comnews #menu{
+	height:36px;
+}
+#menu li {
+	text-align:center;
+	float:left;
+	margin-right:2px;
+	width:86px;
+	height: 36px;
+	cursor:pointer;
+	text-align: center;
+	line-height: 36px;
+
+}
+#menu li.tabFocus {
+	z-index:100;
+	position:relative;
+	background:url(../images/cpbj.png) no-repeat ;
+	color:#fff;
+}
+.Comnews .gd{
+	float: right;
+	margin-top: 10px;
+}
+.Comnews .gd a{
+	color: #015198;
+	text-decoration: none;
+}
+#content {
+	width:710px;
+	height:376px;
+	clear:left;
+	position:relative;
+	margin-top:10px;
+}
+#content .d {
+	display:none;
+}
+#content li.c{
+	display:block;
+	height:376px;
+	width:710px;
+}
+#content li.c .c_top{
+	height:140px;
+}
+#content li.c .c_top .left{
+	float:left;
+	width:215px;
+	height:136px;
+}
+#content li.c .c_top .left img{
+	width:100%;
+	height:100%;
+}
+#content li.c .c_top .right{
+	width:460px;
+	float:right;
+}
+#content li.c .c_top .right p{
+	margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin:0px;
+    font-size:14px;
+    line-height: 26px;
+    display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 3;
+	overflow: hidden;
+
+}
+#content li.c .c_top .right .ph1{
+	color:#000;
+}
+#content li.c .c_top .right .ph2{
+   color:#000000;
+}
+#content li.c .c_top .right a{
+	float:right;
+	color:#fff;
+	font-size:14px;
+	text-decoration: none;
+	width:78px;
+	height:28px;
+	background:#0B83E5;
+	text-align: center;
+	line-height: 28px;
+}
+#content li.c .c_bottom{
+    width:100%;
+}
+#content li.c .c_bottom p{
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+	margin-block-start: 0em;
+    margin-block-end: 0em;
+    line-height: 46px;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+}
+#content li.c .c_bottom p a{
+	text-decoration: none;
+	color:#000;
+	font-size:14px;
+}
+#content li.c .c_bottom p span{
+	margin-right:10px;
+}
+#content li.c .c_bottom .left{
+	float:left;
+	width:300px;
+}
+#content li.c .c_bottom .right{
+	float:right;
+	width:300px;
+}
+/*c部分选项卡结束处!!!!!*/
+#content {
+	width:710px;
+	height:376px;
+	clear:left;
+	position:relative;
+	margin-top:10px;
+}
+#content .d {
+	display:none;
+}
+#content li.d{
+	height:376px;
+	width:710px;
+}
+#content li.d .c_top{
+	height:140px;
+}
+#content li.d .c_top .left{
+	float:left;
+	width:215px;
+	height:136px;
+}
+#content li.d .c_top .left img{
+	width:100%;
+	height:100%;
+}
+#content li.d .c_top .right{
+	width:460px;
+	float:right;
+}
+#content li.d .c_top .right p{
+	margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin:0px;
+    font-size:14px;
+    line-height: 26px;
+	
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 3;
+	overflow: hidden;
+
+
+}
+#content li.d .c_top .right .ph1{
+	color:#000;
+}
+#content li.d .c_top .right .ph2{
+   color:#000000;
+}
+#content li.d .c_top .right a{
+	float:right;
+	color:#fff;
+	font-size:14px;
+	text-decoration: none;
+	width:78px;
+	height:28px;
+	background:#0B83E5;
+	text-align: center;
+	line-height: 28px;
+}
+#content li.d .c_bottom{
+    width:100%;
+}
+#content li.d .c_bottom p{
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+	margin-block-start: 0em;
+    margin-block-end: 0em;
+    line-height: 46px;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+}
+#content li.d .c_bottom p a{
+	text-decoration: none;
+	color:#000;
+	font-size:14px;
+}
+#content li.d .c_bottom p span{
+	margin-right:10px;
+}
+#content li.d .c_bottom .left{
+	float:left;
+	width:300px;
+}
+#content li.d .c_bottom .right{
+	float:right;
+	width:300px;
+}
+/*公司简介新闻滚动*/
+.Comnews .news{
+	width:385px;
+	float:right;
+	height:100%;
+}
+.Comnews .news #box1 .box a {
+	display:block;
+	line-height:18px;
+	text-decoration:none;
+	color:#000;
+	font-family:Arial;
+	font-size:14px;
+
+
+}
+.shell {
+	width:500px;
+}
+#div1 {
+	height:100%;
+	overflow:hidden;
+}
+.Comnews .news .n_top{
+	height:38px;
+}
+.Comnews .news .n_top .left{
+	float:left;
+	height:100%;
+}
+.Comnews .news .n_top .left p{
+	margin-block-start: 0em;
+    margin-block-end: 0em;
+    height:100%;
+    line-height: 38px;
+    margin:0px;
+
+
+
+}
+.Comnews .news .n_top .right{
+	float:right;
+	height:100%;
+	line-height: 38px;
+}
+.Comnews .news .n_top .right a{
+	text-decoration: none;
+	color:#015198;
+}
+.Comnews .news .n_bottom{
+	height:355px;
+	margin-top:10px;
+}
+.Comnews .news .n_bottom #div1 .box{
+	height:60px;
+	border-bottom:1px dotted #747474;
+}
+.Comnews .news .n_bottom #div1 .box span{
+	display: inline-block;
+	width:18px;
+	height:18px;
+	text-align:center;
+	line-height: 18px;
+	color:#fff;
+	margin-right:5px;
+}
+.Comnews .news .n_bottom #div1 .box a{
+	display: block;
+	text-decoration: none;
+	line-height: 30px;
+	font-size:14px;
+	color:#000;
+	width: 398px;
+	overflow: hidden;
+text-overflow:ellipsis;
+white-space: nowrap;
+}
+.Comnews .news .n_bottom #div1 .box .A{
+	background:#0B83E5;
+	width:18px;
+	height:18px;
+
+}
+.Comnews .news .n_bottom #div1 .box .Q{
+	background:#FF9F00;
+}

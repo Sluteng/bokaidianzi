@@ -1,0 +1,259 @@
+@charset "utf-8";
+
+/*nav*/
+.cont_bo .ss {
+    display:none;
+}
+.tab li{
+    float:left;
+    margin-right:30px;
+    cursor: pointer;
+    margin-top:7px;
+    padding:10px 10px;  
+}
+.tab li a{
+  font-size:16px;
+  color:#000;
+}
+.tab li a.cur{
+  color:#3E61A4;
+}
+#on {
+    display:block;
+}
+.tab li.cur{
+  border-bottom:2px solid #3E61A4;  
+  color:#3E61A4;
+  font-weight:bold;
+}
+.tab li.cur a{
+  color:#3E61A4;
+  font-weight:bold;
+}
+.con_top_right{
+  float:right;
+  margin-right:10px;
+}
+.con_top_right .icon-jia-{
+  color: #3E61A4; 
+  font-weight: bold;
+  font-size: 28px;
+}
+.con_top_right li{
+  float:left;
+  text-align:center;
+}
+#fd1 {
+    color: #30569D;
+}
+.con_top_right li a{
+  font-size:14px;
+  color:#000;
+  display:block;
+  margin-top:16px;
+}
+.content{
+  height: 50px;
+  box-shadow:inset 0px -10px 25px -10px #888888; 
+}
+
+/*content*/
+.con{
+  height: 1500px;
+}
+.con_left{
+  width:100%;
+}
+.con .con_left{
+  margin-top: 40px;
+}
+.con .con_left img{
+  width: 498px;
+  height: 420px;
+}
+.con .con_left{
+  float: left;
+}
+.con .con_right{
+  float: left;
+  width: 600px;
+  margin-left: 50px;
+}
+
+.con .con_right h3{
+  margin-top: 50px;
+  font-size: 24px;
+}
+.con .con_right .p1{
+  line-height: 35px;
+  font-size: 16px;
+  margin-bottom: 90px;
+}
+.con .biaoge h4{
+  color:#08358B;
+  font-weight: bold;
+}
+.con .biaoge{
+  border-spacing: 0;
+ border-collapse:collapse;
+ height:670px;
+}
+.con .biaoge table{
+  width:100%;
+  border:1px;
+  border-spacing: 0;
+ border-collapse:collapse;
+}
+.cont_xyp{
+  height:80px;
+  margin-top:160px;
+}
+.cont_xyp a{
+  width: 100px;
+  color: #000;
+}
+.cont_xyp>div{
+  width:120px;
+  height:40px;
+  line-height:40px;
+  border:1px solid #DCDCDC;
+  margin-top:90px;
+  font-size:16px;
+  text-align:center;
+  background:#F8F8F8;
+  border-radius:5px;
+  cursor:pointer;
+  padding-right: 20px;
+  padding-left: 20px;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+.cont_xyp>div:hover{
+  background:#295CBD;
+}
+.cont_xyp>div:hover a{
+  color: #fff;
+}
+.xian{
+  margin-top: 30px;
+}
+
+.con_bottom h2{
+  margin-top: 30px;
+  margin-left: 20px;
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+.con_bottom .tu p{
+  width: 277px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+/*ul,li,ol {
+  list-style-type:none;
+}
+a {
+  text-decoration:none;
+}*/
+.con_bottom .bar img {
+  width:250px;
+  height:300px;
+  display:block;
+  /*去除多余边框*/
+}
+.con_bottom {
+  width:1200px;
+  height: 430px;
+  margin-top:72px;
+}
+.con_bottom ul {
+  position:relative;
+}
+.con_bottom .bar li {
+  width:250px;
+  height:300px;
+  float:left;
+  margin-right:66px;
+}
+.con_bottom ul li a {
+  width:250px;
+  height:300px;
+  display:block;
+  position:relative;
+  /*远近度*/
+        perspective:400px;
+  transition:all 1s;
+}
+.con_bottom ul li a>div {
+  transition:all 1s;
+  /*背面不可视*/
+        backface-visibility:hidden;
+}
+.con_bottom ul li a:hover .forward {
+  transform:rotateY(-180deg);
+}
+.tips {
+  width:250px;
+  height:300px;
+  color:#fff;
+  background:linear-gradient(#30569D,#30569D);
+  transform:rotateY(180deg);
+  transition:all 1s;
+  position:absolute;
+  top:0px;
+  left:0px;
+}
+.tips .p1 {
+  text-indent:2em;
+  line-height:2em;
+  padding:20px;
+  font-size:16px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5;
+  overflow: hidden;
+  height: 145px;
+  margin-top: 20px;
+/*  font-weight:400px;*/
+}
+.con_bottom ul li a:hover .tips {
+  transform:none;
+  box-shadow:0 0 10px 5px;
+  border-radius:10px;
+}
+.con_bottom .tips .xqlj{
+  width: 100px;
+  height: 35px;
+  background-color: #fff;
+  color: #30569D;
+  margin-left: 130px;
+  text-align: center;
+  border-radius: 20px;
+  line-height: 35px;
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 30px;
+}
+.con_bottom .bar{
+  text-align: center;
+}
+.con_bottom .bar .p2{
+  margin-top: 25px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
